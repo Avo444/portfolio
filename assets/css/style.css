@@ -152,13 +152,13 @@ body {
 .case__studies {
     margin-top: 100px;
 }
-.case__studies-title {
+.title {
     color: #080808;
     font-size: 34px;
     text-align: center;
 }
 
-.case__studies-desc {
+.desc {
     max-width: 570px;
     width: 100%;
     color: #9C9C9C;
@@ -166,6 +166,8 @@ body {
     margin-top: 10px;
     text-align: center;
     line-height: 24px;
+    font-size: 14px;
+
 }
 .cases {
     margin-top: 60px;
@@ -241,4 +243,69 @@ body {
 }
 .case:nth-child(3) .case__btn {
     background-color: #2AB090;
+}
+.testimonals {
+    margin-top: 80px;
+    padding: 80px ;
+    background-color: #080808;
+}
+.testimonals__title {
+    color: #fff;
+}
+
+.testimonals__desc {
+    margin-top: 10px;
+}
+.testimonals__row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tesimonal-wrapper {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    padding: 1px;
+    background-image: linear-gradient(90deg,rgba(72, 72, 72, 1) 0%, rgba(27, 27, 27, 0) 100%);
+    border-radius: 6px;
+    margin-top: 60px;
+    transition-duration: .3s;
+}
+.tesimonal-wrapper::before {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 15px;
+    width: 23px;
+    height: 23px;
+    background-image: url("../img/testimonal-icon.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testimonal {
+    background-color: #080808;
+    border-radius: 6px;
+    padding: 30px;
+
+}
+.testimonal__desc {
+    text-align: left;
+}
+.tesimonal__sender {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.tesimonal__sender img {
+    margin-right: 20px;
+}
+.tesimonal-wrapper:hover {
+    -webkit-box-shadow: 0px 8px 30px 0px rgba(255, 255, 255, 0.3);
+    -moz-box-shadow: 0px 8px 30px 0px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 8px 30px 0px rgba(255, 255, 255, 0.3);
+    transform: scale(1.01);
 }
