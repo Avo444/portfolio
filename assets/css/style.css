@@ -70,7 +70,9 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
+.info__bar {
+    z-index: 1;
+}
 .info__bar h1 {
     font-family: "Raleway", sans-serif;
     font-size: 44px;
