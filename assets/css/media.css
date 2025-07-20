@@ -159,6 +159,9 @@
     .intro h1, .intro h2 {
         text-shadow: 1px 2px 2px #62BA1B;
     }
+    .info__bar h2 {
+        max-width: 400px;
+    }
 
     .programms {
         flex-wrap:wrap;
@@ -219,5 +222,56 @@
     }
     #recent__next {
         top: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 340px !important;
+    }
+    .info__bar h2 {
+        max-width: 330px;        
+    }
+    .program {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 300px !important;
+    }
+    .info__bar h2 {
+        max-width: 300px;
+    }
+    .pricture__bar {
+        display: none;
+    }
+    .intro {
+        padding: 120px 0 60px 0;
+    }
+    .case .case__desc {
+        font-size: 14px;
+    }
+    .case__odd .case__row-info {
+        padding-right: 10px;
+    }
+    .desc {
+        font-size: 12px;
+    }
+    .testimonal {
+        padding: 20px;
+    }
+    .testimonal__sender{ 
+        margin-top: 15px;
+    }
+    .recent__card-desc {
+        font-size: 12px;
+    }
+    .recent__card-desc {
+        margin-top: 10px;
+    }
+    .recent__card-title {
+        margin-top: 20px;
     }
 }
