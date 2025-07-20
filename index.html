@@ -10,18 +10,26 @@
 <body>
     <div class="header__wrapper">
         <header class="header">
-            <nav class="nav__items">
-                <ul class="nav__navigation">
-                    <li class="nav__item"><a href="#">Home</a></li>
-                    <li class="nav__item"><a href="#">Case Studies</a></li>
-                    <li class="nav__item"><a href="#">Testimonials</a></li>
-                    <li class="nav__item"><a href="#">Recent work</a></li>
-                    <li class="nav__item"><a href="#">Get In Touch</a></li>
-                </ul>
-                <ul class="nav__socials">
-                    <li><a href="#"><img src="assets/img/LinkedIn.svg" alt=""></a></li>
-                    <li><a href="#"><img src="assets/img/Behance.svg" alt=""></a></li>
-                    <li><a href="#"><img src="assets/img/Twitter.svg" alt=""></a></li>
+            <nav class="nav__items" id="nav__items">
+                <div class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu">
+                    <ul class="nav__navigation nav__item">
+                        <li class="nav__item"><a href="#">Home</a></li>
+                        <li class="nav__item"><a href="#">Case Studies</a></li>
+                        <li class="nav__item"><a href="#">Testimonials</a></li>
+                        <li class="nav__item"><a href="#">Recent work</a></li>
+                        <li class="nav__item"><a href="#">Get In Touch</a></li>
+                    </ul>
+                    <ul class="nav__socials nav__item">
+                        <li><a href="#"><img src="assets/img/LinkedIn.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/img/Behance.svg" alt=""></a></li>
+                        <li><a href="#"><img src="assets/img/Twitter.svg" alt=""></a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <div class="intro">
@@ -158,8 +166,8 @@
                             <a href="#" class="recent__card-btn">Know more <img src="assets/img/to-right.svg" alt=""></a>
                         </div>
                     </div>
-                    <img src="assets/img/action.svg" id="recent__prev" alt="">
-                    <img src="assets/img/action.svg" id="recent__next" alt="">
+                    <img src="assets/img/action.svg" id="recent__prev" class="recent__slug" alt="">
+                    <img src="assets/img/action.svg" id="recent__next" class="recent__slug" alt="">
                 </div>
             </div>
         </section>
